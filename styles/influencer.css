@@ -155,11 +155,11 @@ nav a{
         margin: 0px;
         text-align: center;
         justify-content: center;
-        
     }
     .cam-1{
         width: 257px;
         height: 257px;
+
     }
     .hero-description{
         display: flex;
