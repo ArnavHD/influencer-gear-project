@@ -83,3 +83,93 @@ nav a{
     text-decoration: none;
     color: var(--primary-color);
 }
+.nav-title{
+    font-size: 1.5rem;
+}
+.nav-sides{
+    font-size: 1rem;
+}
+
+
+/* hero section part */
+.hero-sec{
+    margin-top: 9.1rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+}
+.hero-title{
+    font-size: 3.25rem;
+}
+.cam{
+    background-image: url(../images/Circle\ design.svg);
+    /* width: 50%; */
+    background-position: -10px -10px;
+    background-repeat: no-repeat;
+}
+.btn{
+    background-color: #E02C6D;
+    border: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 0.625rem 1.5rem;
+    border-radius: 2.56rem;
+}
+.hero-description{
+    width: 50%;
+    margin-right: 8.5rem;
+}
+.hero-sec{
+    margin-bottom: 10.6rem;
+}
+.three-dot{
+    display: none;
+}
+
+/* for small devices */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 35px 16px;
+        justify-items: center;
+    }
+    .nav-title{
+    font-size: 1rem;
+}
+    .three-dot{
+        display:flex;
+    }
+    .hero-sec{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .item{
+        display: none;
+    }
+    .cam{
+        /* width: 100%; */
+        margin: 0px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .cam-1{
+        width: 257px;
+        height: 257px;
+    }
+    .hero-description{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        font-size: .6rem;
+        text-align: center;
+    }
+    .hero-title{
+        font-size: 1.1rem; 
+        text-align: center;
+    }
+}
