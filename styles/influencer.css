@@ -149,6 +149,9 @@ nav a{
 .three-dot{
     display: none;
 }
+.hero-subtitle{
+    margin-bottom: 1rem;
+}
 
 /* Sponsors company styles */
 .sponsors-compay{
@@ -342,6 +345,7 @@ footer{
     .sponsors-compay{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
         justify-items:center;
         align-items:center;
         border: none;
